@@ -1,0 +1,32 @@
+# data (never commit raw or patient data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+
+# model checkpoints
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+
+# editor
+.vscode/
+.idea/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# secrets
+.env

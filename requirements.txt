@@ -1,0 +1,19 @@
+# pip 备用安装方式（conda 环境失败时使用）
+# python -m venv .venv
+# .venv\Scripts\activate
+# pip install -r requirements.txt
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+pyarrow
+datasets
+lifelines
+xgboost
+
+# PyTorch 单独安装，避免默认拉取 CUDA 大包：
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
