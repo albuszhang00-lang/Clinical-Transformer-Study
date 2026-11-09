@@ -1,0 +1,5 @@
+model,auroc,auprc,accuracy
+RandomForest,0.8055,0.6757,0.7627
+LogisticRegression,0.7862,0.5967,0.722
+XGBoost,0.7708,0.6408,0.7593
+Dummy (prior),0.5,0.3051,0.6949
