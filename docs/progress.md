@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | 0 |  | 环境 + 数据 | conda 环境 OK；Chowell train 1184 / test 295；28 列 | conda 镜像；kernel DLL | Week 1 EDA |
 | 1 |  | Chowell EDA | train shape：（1184，28）；Response 比例：_0,269_；缺失最多：_无缺失_ |  | Week 2 基线 |
-| 2 |  | 预处理 + sklearn 基线 | 最佳 AUROC：__；模型：__ |  | Week 3 生存分析 |
+| 2 |  | 预处理 + sklearn 基线 | 最佳 AUROC：_0.8055_；模型：_RF_ |  | Week 3 生存分析 |
 | 3 |  | 生存分析 | OS C-index：__；PFS C-index：__ |  | Week 4 PyTorch |
 | 4 |  | PyTorch MLP | MLP AUROC：__；vs 基线：__ |  | Week 5 论文复现 |
 | 5 |  | 读论文 + 代码 |  |  |  |
