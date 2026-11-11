@@ -1,0 +1,9 @@
+model,endpoint,split,c_index,notes
+Cox clinical,OS,train,0.7154536948286092,n=1184; events=701; penalizer=0.01
+Cox clinical,OS,test,0.733051620356296,n=295; events=172; penalizer=0.01
+Cox full,OS,train,0.7253164605109012,n=1184; events=701; penalizer=0.01
+Cox full,OS,test,0.7361220891347966,n=295; events=172; penalizer=0.01
+Cox clinical,PFS,train,0.6399459702031037,n=1184; events=991; penalizer=0.01
+Cox clinical,PFS,test,0.6825985741306562,n=295; events=242; penalizer=0.01
+Cox full,PFS,train,0.663801676056779,n=1184; events=991; penalizer=0.01
+Cox full,PFS,test,0.6911101411319657,n=295; events=242; penalizer=0.01
