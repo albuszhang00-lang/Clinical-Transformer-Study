@@ -1,0 +1,28 @@
+﻿model,endpoint,split,metric,value,ci_low,ci_high,notes
+Dummy (prior),Response,train_cv,auroc,0.5,0.5,0.5,5-fold stratified CV; mean ± SD
+Dummy (prior),Response,train_cv,auprc,0.2694235857827362,0.2681863691625545,0.2706608024029178,5-fold stratified CV; mean ± SD
+Dummy (prior),Response,train_cv,accuracy,0.7305764142172638,0.7293391975970821,0.7318136308374456,5-fold stratified CV; mean ± SD
+LogisticRegression,Response,train_cv,auroc,0.7040967061198276,0.6913509050386333,0.7168425072010218,5-fold stratified CV; mean ± SD
+LogisticRegression,Response,train_cv,auprc,0.480965007514975,0.4595088157799836,0.5024211992499665,5-fold stratified CV; mean ± SD
+LogisticRegression,Response,train_cv,accuracy,0.6528570406922692,0.6261927959318848,0.6795212854526537,5-fold stratified CV; mean ± SD
+RandomForest,Response,train_cv,auroc,0.7058356844664647,0.6974945551276999,0.7141768138052296,5-fold stratified CV; mean ± SD
+RandomForest,Response,train_cv,auprc,0.4882463634150216,0.4684509230612827,0.5080418037687605,5-fold stratified CV; mean ± SD
+RandomForest,Response,train_cv,accuracy,0.6976292641064149,0.6845364913860433,0.7107220368267865,5-fold stratified CV; mean ± SD
+XGBoost,Response,train_cv,auroc,0.6599060120194513,0.6309200405414721,0.6888919834974305,5-fold stratified CV; mean ± SD
+XGBoost,Response,train_cv,auprc,0.4412093212734719,0.4158871199993772,0.4665315225475666,5-fold stratified CV; mean ± SD
+XGBoost,Response,train_cv,accuracy,0.6942716155331474,0.67840183166659,0.7101413993997049,5-fold stratified CV; mean ± SD
+Dummy (prior),Response,test,auroc,0.5,0.5,0.5,test set; 1000x bootstrap 95% CI
+Dummy (prior),Response,test,auprc,0.3050847457627119,0.2508474576271186,0.3525423728813559,test set; 1000x bootstrap 95% CI
+Dummy (prior),Response,test,accuracy,0.6949152542372882,0.6474576271186441,0.7491525423728813,test set; 1000x bootstrap 95% CI
+LogisticRegression,Response,test,auroc,0.7861788617886178,0.732424262006714,0.8415676288577171,test set; 1000x bootstrap 95% CI
+LogisticRegression,Response,test,auprc,0.5966522405807979,0.5018682955145344,0.706201562738505,test set; 1000x bootstrap 95% CI
+LogisticRegression,Response,test,accuracy,0.7220338983050848,0.6745762711864407,0.7695762711864406,test set; 1000x bootstrap 95% CI
+RandomForest,Response,test,auroc,0.8054742547425475,0.7528757558065823,0.8577823761757618,test set; 1000x bootstrap 95% CI
+RandomForest,Response,test,auprc,0.6756618632492885,0.5838094727433172,0.7638330810455211,test set; 1000x bootstrap 95% CI
+RandomForest,Response,test,accuracy,0.7627118644067796,0.7152542372881356,0.8101694915254237,test set; 1000x bootstrap 95% CI
+XGBoost,Response,test,auroc,0.7708401084010841,0.7104477793570747,0.8320952517313457,test set; 1000x bootstrap 95% CI
+XGBoost,Response,test,auprc,0.6407955717504108,0.5481021872123547,0.7315052644949381,test set; 1000x bootstrap 95% CI
+XGBoost,Response,test,accuracy,0.7593220338983051,0.7084745762711865,0.8101694915254237,test set; 1000x bootstrap 95% CI
+MLP,Response,test,auroc,0.770189701897019,0.714335652031762,0.8274763921709246,test set; 1000x bootstrap 95% CI
+MLP,Response,test,auprc,0.6052086908421022,0.5176399788246893,0.7027484423058893,test set; 1000x bootstrap 95% CI
+MLP,Response,test,accuracy,0.7050847457627119,0.6542372881355932,0.752542372881356,test set; 1000x bootstrap 95% CI
